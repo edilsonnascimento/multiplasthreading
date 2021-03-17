@@ -15,8 +15,8 @@ public class MyThreadTest {
             } catch (InterruptedException e) {
                 System.out.println("Main threadd interrupted...");
             }
-
-            System.out.println("FIM DO MAIN.\n");
+            System.out.println("FIM da OUTRA Thread.");
         }
+        System.out.println("FIM DO MAIN.");
     }
 }
