@@ -23,4 +23,8 @@ public class MyThread implements Runnable{
 
         }
     }
+
+    public Thread getThread() {
+        return thread;
+    }
 }
