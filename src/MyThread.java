@@ -5,6 +5,7 @@ public class MyThread implements Runnable{
 
     public MyThread(String threadName) {
         this.thread = new Thread(this, threadName);
+        System.out.println("Criada a thred: " + thread.getName());
         thread.start();
     }
 
