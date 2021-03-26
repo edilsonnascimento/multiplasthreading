@@ -18,6 +18,8 @@ public class MultiplasThreadsHeranca extends Thread{
         }
 
         System.out.println("FINALIZA RUN " + getName());
-
     }
+
+
+
 }
